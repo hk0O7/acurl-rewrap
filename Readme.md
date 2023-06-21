@@ -1,4 +1,4 @@
-# acurl re-wrapper
+# acurl-rewrap
 This is a Bash function that acts as a wrapper for the official [acurl](https://docs.apigee.com/api-platform/system-administration/auth-tools#install) CLI utility for the Apigee Edge Cloud [Management API](https://apidocs.apigee.com/operations) (which is a `curl` wrapper itself).
 
 Its main feature is to add the beginning of the full Management API endpoint URL to the relative paths you'd give it. This allows for a much more intuitive, practical and quicker usage while still being fully-compatible (and battle-tested with production changes) with the traditional (full) `acurl` URLs and parameters.
